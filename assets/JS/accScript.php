@@ -1,0 +1,15 @@
+<?php 
+header('Content-Type: application/javascript');
+?>
+
+// function for toggeling between classes for accordion effect
+function toggle(){
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+	for (i = 0; i < acc.length; i++) {
+    	acc[i].onclick = function(){
+        	this.classList.toggle("active");
+        	this.nextElementSibling.classList.toggle("show");
+  		}
+	}
+}
