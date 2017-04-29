@@ -11,7 +11,7 @@ body{
 	padding: 0;
 	overflow: hidden;
 	background: #3366cc;
-    font-family: 'Secular One', sans-serif; 
+    font-family: 'Secular One', sans-serif;
 	border: none;
 }
 
@@ -64,7 +64,7 @@ li a, #dropbtn {
 
 li a:hover, #drop:hover #dropbtn {
     background-color: #003366;
-	transition: all 0.8s;    
+	transition: all 0.8s;
 }
 
 li.dropdown {
@@ -75,7 +75,7 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
 }
 
 .dropdown-content a {
@@ -121,7 +121,7 @@ li.dropdown {
 #sitenameBar{
     font-family: 'Lobster', cursive;
     font-size: 50px;
-    color: #f9f9f9; 
+    color: #f9f9f9;
 }
 #findSection{
     margin: 48px auto;
@@ -199,11 +199,8 @@ li.dropdown {
     }
 
     .redBackground:hover{
-        background-color: red  ; 
+        background-color: red  ;
     }
     .greenBackground:hover{
-        background-color: #2add50  ; 
+        background-color: #2add50  ;
     }
-
-
-
